@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -6,11 +7,11 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("Cdxy_Eodis")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("电子公文交换系统")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Cdxy_Eodis")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
+[assembly: AssemblyCompany("Chengdexy.cn")]
+[assembly: AssemblyProduct("电子公文交换系统")]
+[assembly: AssemblyCopyright("版权归薛源个人所有授权相关单位使用")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,3 +34,5 @@ using System.Runtime.InteropServices;
 // 方法是按如下所示使用 "*":
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguage("zh-Hans")]
+
