@@ -13,6 +13,9 @@
 </head>
 <body>
     <div>
+        @Html.ActionLink("退出登录", "LogOut", "Account", null, null)
+    </div>
+    <div>
         <p>@Model.Uid</p>
         <p>@Model.Pwd</p>
     </div>

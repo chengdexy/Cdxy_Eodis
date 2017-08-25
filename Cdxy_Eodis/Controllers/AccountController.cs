@@ -33,7 +33,7 @@ namespace Cdxy_Eodis.Controllers
         {
             string uid = fc["inputUid"];
             string pwd = fc["inputPwd"];
-            if (DbHelper.CheckUidPwd(uid,pwd))
+            if (DbHelper.CheckUidPwd(uid, pwd))
             {
                 Session["Uid"] = uid;
                 Session["Pwd"] = pwd;
@@ -44,6 +44,13 @@ namespace Cdxy_Eodis.Controllers
             {
                 return View();
             }
+        }
+
+        // GET: LogOut
+        public ActionResult LogOut()
+        {
+            Session.Clear();
+            return RedirectToAction("LogIn");
         }
     }
 }
